@@ -4,7 +4,7 @@ const Progresbar = () => {
   const [data, setData] = useState(0);
   const windowWidth = useRef(window.innerWidth);
 
-  console.log("width: ", windowWidth.current);
+  // console.log("width: ", windowWidth.current);
   const time = setTimeout(() => {
     setData((data) => {
       return data < windowWidth.current && setData(data + 100);
@@ -13,7 +13,7 @@ const Progresbar = () => {
       return clearInterval(data === windowWidth.current);
     }
   }, 1000);
-  console.log("data===", data === windowWidth.current);
+  // console.log("data===", data === windowWidth.current);
 
   return (
     <div>
