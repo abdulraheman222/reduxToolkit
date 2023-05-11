@@ -4,6 +4,7 @@ import UserDetails from "./components/UserDetails";
 import Progresbar from "./components/Progresbar";
 import Navbar from "./components/Navbar";
 import Todo from "./components/Todo";
+import NewtonCradle from "./components/NewtonCradle";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Navbar />
       <UserDetails /> */}
       {/* <Progresbar/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <NewtonCradle/>
     </>
   );
 }
